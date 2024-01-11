@@ -1,0 +1,26 @@
+/node_modules
+
+docker-compose._old.yml
+docker-compose.yml
+.env
+
+# frontend
+# testing
+frontend/coverage
+
+# next.js
+frontend/.next/
+frontend/out/
+
+# production
+frontend/build
+
+# local env files
+.env*.local
+
+# vercel
+frontend/.vercel
+
+# typescript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
