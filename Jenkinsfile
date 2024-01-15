@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Code Check') {
       steps {
-        git(url: 'https://github.com/modestasd/docker-jenkins-test', branch: 'main')
+        git(url: 'https://github.com/modestasd/docker-jenkins-test', branch: 'main', credentialsId: '61958b2e-301f-4a11-8a00-4000a7127a9c')
       }
     }
 
